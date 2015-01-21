@@ -50,19 +50,19 @@ namespace BeaconAppProxy.Controllers {
                 Major = "51061",
                 Minor = "38039",
                 ClassRoom = "HAA-H1-21",
-                ImageUrl = "/photo1"
+                ImageUrl = "/Content/photo1.jpg"
             });
             beacons.Add(new Beacon {
                 Major = "37461",
                 Minor = "17643",
                 ClassRoom = "HAA-H1-23",
-                ImageUrl = "/photo2"
+                ImageUrl = "/Content/photo2.jpg"
             });
             beacons.Add(new Beacon {
                 Major = "29417",
                 Minor = "46117",
                 ClassRoom = "HAA-H1-14",
-                ImageUrl = "/photo3"
+                ImageUrl = "/Content/photo3.jpg"
             });
 
             return Json(beacons, JsonRequestBehavior.AllowGet);

@@ -61,7 +61,7 @@ namespace BeaconAppProxy.Controllers {
             beacons.Add(new Beacon {
                 Major = "29417",
                 Minor = "46117",
-                ClassRoom = "HAA-H1-14",
+                ClassRoom = "HAA-H1-05",
                 ImageUrl = "https://beacon-app-proxy.azurewebsites.net/Content/photo3.jpg"
             });
 
